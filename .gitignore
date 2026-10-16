@@ -1,0 +1,31 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Cadence / simulation scratch
+*.log
+*.log.*
+*.sim
+*.spc
+*.OUT
+*.Q02D
+*.Q2D
+*.ORG
+*.main_in
+devices.dml
+cycle.msm
+net.dl
+net.dst
+signoise.run/
+
+# generated results (the report and stage JSON are produced by the pipeline)
+out/
+*.html
+
+# editors / os
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

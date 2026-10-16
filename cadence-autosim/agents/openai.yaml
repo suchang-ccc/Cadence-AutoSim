@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cadence AutoSim"
+  short_description: "Automate Cadence PCB SI: field solve, channel sim, report"
+  default_prompt: "Use $cadence-autosim to analyse these nets on this Cadence board and produce a traceable SI report with an audit table."
